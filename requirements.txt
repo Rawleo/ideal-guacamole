@@ -1,0 +1,8 @@
+asgiref==3.8.1
+certifi==2025.6.15
+Django==5.2.3
+mod_wsgi-httpd==2.4.62.1
+mod_wsgi-standalone==5.0.2
+setuptools==80.9.0
+sqlparse==0.5.3
+wheel==0.45.1
