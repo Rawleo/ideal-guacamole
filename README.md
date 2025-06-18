@@ -33,3 +33,19 @@ mod_wsgi-express start-server --help
 django-admin startproject mysite djangotutorial
 python manage.py runmodwsgi --reload-on-changes
 python manage.py runmodwsgi
+
+# PostgreSQL 
+Installed via brew to run locally.
+brew services start postgresql@17
+    $ egrep 'listen|port' /opt/homebrew/var/postgresql@17/postgresql.conf
+        #listen_addresses = 'localhost'		# what IP address(es) to listen on;
+        #port = 5432				# (change requires restart)
+        #ssl_passphrase_command_supports_reload = off
+                            # supported by the operating system:
+                            # supported by the operating system:
+                            # supported by the operating system:
+                            #   %r = remote host and port
+        #icu_validation_level = warning		# report ICU locale validation
+
+Created a DB guacamole. 
+Need to integrate venv into DB. 
